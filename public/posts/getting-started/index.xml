@@ -6,7 +6,17 @@
     <description>Recent content in Welcome to HTML Language!! on Chel Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 06:00:23 +0600</lastBuildDate><atom:link href="https://chel-code.web.app/posts/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 06:00:23 +0600</lastBuildDate><atom:link href="https://chel-code.web.app/posts/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML Language and Tags</title>
+      <link>https://chel-code.web.app/posts/getting-started/html-intro/</link>
+      <pubDate>Fri, 01 Jan 2021 06:00:23 +0600</pubDate>
+      
+      <guid>https://chel-code.web.app/posts/getting-started/html-intro/</guid>
+      <description>What is HTML? HTML is a Language of the web which makes use of tag to build the structure and layout of a webpage. The full meaning of HTML is (Hyper Text Markup Language). Broken down, this means - a language that builds markup or structure by employing an advanced style of writing text, in this case, they are called &amp;ldquo;TAGS&amp;rdquo;.
+When was it Founded HTML language till date has had a lot of version releases each coming with upgraded features .</description>
+    </item>
+    
     <item>
       <title>HTML Stuffs Again</title>
       <link>https://chel-code.web.app/posts/getting-started/second/</link>
