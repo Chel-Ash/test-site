@@ -1,7 +1,17 @@
-baseURL: https://hugo-toha.github.io
+enableRobotsTXT: true
+canonifyURLs: true
+
+description:  'I am a software developer currently working on SIMs and IOT for Kigen, a start-up that was spun out of Arm. Before that I spent a few years working on various UK government projects managed by GDS.'
+author: 'Chel Koby'
+github: 'https://github.com/mathieuhendey'
+og_image: '/img/og_image.png'
+sitename: 'Chel Codes'
+twitter: '@chelkoby'
+baseURL: https://chel-code.web.app/
 
 languageCode: en-us
-title: "Chel's Blog"
+title: "Chel Codes"
+
 theme: "toha"
 
 # Manage languages
@@ -31,9 +41,9 @@ enableEmoji: true
 # Site parameters
 params:
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/Chel-Ash/chelcodes
 
-  background: images/background-1.jpg
+  background: images/background-3.jpg
 
   # The inverted logo will be used in the initial transparent navbar and
   # the main logo will be used in the non-transparent navbar.

@@ -1,0 +1,45 @@
+# section information
+section:
+  name: Project
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  template: sections/projects.html
+
+
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Hobby
+  filter: "hobby"
+
+projects:
+- name: Text-to-Image Translation
+  logo: images/sections/projects/kubernetes.png
+  role: Reasearcher & Developer
+  timeline: "October 2020 - Present"
+  repo: https://github.com/Chel-Ash/channel-ai
+  url: "https://channelai.netlify.app/"
+  summary: A problem in deep Learning that integrates Computer Vision and Natural language Processing where a model using GANs learns how to translate written or spoken text into a descriptive image.
+  tags: ["professional", "computer vision", "text-image synthesis"]
+
+- name: VR Soccer Game
+  logo: images/sections/projects/tensorflow.png
+  role: Virtual Reality Game Developer
+  timeline: "July 2020 - Present"
+  repo: https://github.com/tensorflow/tensorflow
+  url: "https://cheloverboard.netlify.app"
+  summary: I love soccer and Virtual Reality. I also noticed that I have hardly ever come across a Soccer Game but in VR, so my goal is to build one in VR.
+  tags: ["professional", "footbal", "soccer", "vr games"]
+
+- name: Web Development Tutorials
+  logo: images/sections/projects/tensorflow.png
+  role: Tutor
+  timeline: "March 2020 - Present"
+  repo: https://github.com/Chel-Ash/chelcodes
+  url: "https://www.youtube.com/channel/UC_ldwM5LytfX9nyCzghEo3g"
+  summary: I learnt Front-end development with the purpose of creating a website for myself and to have a few programming skills. With my skills, I've acted as a tutor and have tutored a couple of local folks Website Development.
+  tags: ["hobby", "webdevelopment","academic"]

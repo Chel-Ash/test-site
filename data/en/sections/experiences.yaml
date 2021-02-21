@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Channel AI
+    url: "https://channelai.netlify.app/"
+    location: Ikeja, Remote
+    # company overview
+    overview: ChannelAI is my website/ blog where I write about deep learning & Computer Vision concepts. Most of my work and everyday projects are documented and simplified for others as tutorials. This experience has helped to improve my skill in Writing, Research and Content Creation.
+  positions:
+  - designation: Content Creator and Researcher
+    start: May 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Research Deep learning Tasks from Kaggle Datascience Community and Solve them by building models.
+    - Document my work on Google Colab and Github for Linking during my tutorials and articles written on my blog
+    - Edit my articles, add graphics and illustrations to improve users engagement.
+    - Optimize my content using keywords, site & Layout structure for SEO..
+
+- company:
+    name: ChelOverboard
+    url: "https://cheloverboard.netlify.app/"
+    location: Ikeja, Remote
+    overview: ChelOverboard is the name of my Startup that specializes in Virtual Reality Development. As I grow along with me, my goal is to work in Development of VR Games and Animated Movies using the Unity Game Engine. On the process, I want to implement Text-Image Synthesis in a VR world - Links are available in the Project's section to some of my current progress.
+  positions:
+  - designation: Virtual reality Developer (Games and Movies)
+    start: July 2020
+    responsibilities:
+    - Understand the functionalities and differences of a Virtua Reality World and how Images are Displayed in a Standard VR Headset (Learn the Basics Of VR development)
+    - Watch lots of Tutorial Videos from the Unity 3D website and recreate these projects personally to get a better understanding and fix bugs.
+    - Research and Carry out Projects in Computer Vision/ NLP (Image-Text Synthesis). I.e Working with a set of Datasets and employing known acceptable methods( Like Generative Adversarial Networks) imitate a text-image synthesis. 
+
+
+- company:
+    name: Freelancer
+    url: "/"
+    location: Remote
+    overview: As a web devloper, I have been building responsive web - opetimized sites for my clients. My goal is to build sites that meets the requirements for them to connect better with their target audience. A few of my projects over the past months can be found below
+  positions:
+  - designation: Front-End Developer
+    start: July 2020
+    name:
+    - Kathier's Exclusive
+    - ChelOverboard
+    - ChannelAI
+    projects:
+      - 1
+    # - "https://kathier-exclusive.web.app/"
+    # - "https://cheloverboard.netlify.app/"
+    # - "https://channelai.netlify.app/"
+    responsibilities:
+    - Building Responsive Web Optimized sites
+    - Ensuring that the sites meets their needs and requirements (Targert Audience)
+    - Providing Regular maintenance to keep up with constantly changing Algorithm and trends.

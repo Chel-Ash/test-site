@@ -1,0 +1,26 @@
+# section information
+section:
+  name: Certificates
+  id: achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  template: sections/achievements.html
+
+
+achievements:
+- title: Machine Learning by Stanford University
+  image: images/sections/achievements/ML_Course.jpg
+  summary: I consider myself a near expert in Machine Learning(Algorithms). I can use and implement all popular ML Algorithms to build systems that can make predictions at a minimal level. Ive practised extensively with ML Algorithms mainly during my Machine Learning Online course on Coursera
+
+- title: HTML, CSS & Javascript The Big Picture
+  image: images/sections/achievements/webdev.jpg
+  summary: 
+
+- title: Introduction to Tensorflow for Artificial Intelligence
+  image: images/sections/achievements/CNN_Course.jpg
+  summary: I consider myself a near expert in Machine Learning(Algorithms). I can use and implement all popular ML Algorithms to build systems that can make predictions at a minimal level. Ive practised extensively with ML Algorithms mainly during my Machine Learning Online course on Coursera
+
+- title: Convolutional Neural Networks in Tensorflow
+  image: images/sections/achievements/CNN_Course.jpg
+  summary: I consider myself a near expert in Machine Learning(Algorithms). I can use and implement all popular ML Algorithms to build systems that can make predictions at a minimal level. Ive practised extensively with ML Algorithms mainly during my Machine Learning Online course on Coursera

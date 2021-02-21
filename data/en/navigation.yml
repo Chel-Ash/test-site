@@ -1,0 +1,11 @@
+# name: Home
+# link: /
+
+name: About
+link: ../about-me/
+
+name1: Contact
+link1: ../contact/
+
+name2: Services
+link2: ../services/

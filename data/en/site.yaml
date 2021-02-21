@@ -1,8 +1,12 @@
 copyright: © 2020 Copyright ChelCodes.
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Example site for hugo theme Toha.
+description: Welcome to my Profile. I am a web Developer with 2 years of Experience building and optimizing web applications while also tutoring folks web building languages. I hope that while working with you, I can improve your businesses and drive you closer to your target audience!.  
 
 customMenus:
-- name: ChannelAI
-  url: https://hossainemruz.gitbook.io/notes/
+
+- name: Contact
+  url: /contact/
+
+- name: About
+  url: /about-me/

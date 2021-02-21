@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/skills.html
+
+
+
+skills:
+- name: HTML, CSS & Bootstrap
+  logo: "/images/sections/skills/front-end.png"
+  summary: "Experienced with Web Languages like HTML & CSS. Have Used those two Including Bootstrap Library to Build Web Applications. Links In Resume"
+  url: "https://kubernetes.io/"
+
+- name: Java-Script
+  logo: "images/sections/skills/javascript.jpg"
+  summary: "Using as the main language for professional development.Capable of writing scalable, testable, and maintainable program."
+
+- name: Google Cloud Platfrom
+  logo: "images/sections/skills/gcp.jpg"
+  summary: "I've Worked with essentially GCP because of it's ease-of-use. I have used it mainly to Store, Host and Deploy Machine Learning Projects and Models built with Keras & Tensorflow Library"
+
+- name: Tensorflow
+  logo: "images/sections/skills/tensorflow.jpg"
+  summary: "I'm Experienced Using Tensorlfow with Keras to build Models and Perform Data Preparation, Cleaning and Extraction. Most of my work has been concerned with Deep learning and solving Project in Computer Vision and Natural Language Processing"
+
+- name: Git
+  logo: "images/sections/skills/git.png"
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+
+- name: Python
+  logo: "images/sections/skills/python.jpg"
+  summary: "I have an Intermediate Knowledge of Python Lang. It aids me in my Deep Learning Project and building the Backend of Web Applications"
+
+- name: Writing & Reseach
+  logo: "images/sections/skills/blog.png"
+  summary: "I have an adequalte Knowledge about writing & Blogging, still with a lot of improvement needed. I love to Research topics of my Interests in Deep Learning and Computer Vision. I blog by teachuing about terms in these two fields and projects that I have Covered in term."
+
+- name: Unity 3D Engine
+  logo: "images/sections/skills/unity.png"
+  summary: "I have an Intermediate Knowledge of Unity Engine which I hope to master completely. I use the engine for learnoing about Virtual Reality Development i the area of Gaming and partlyu, recently, Creating Animated Movies and Clips in Unity"
+
+- name: Machine Learning
+  logo: "images/sections/skills/ml.png"
+  summary: "I have experience using Machine Learning techniques and Algorithms to build models that can make decisions, find outliers and recommend therefore. I've learnt about Regression, Logistic, Bayers term, Random Forest, and Anomaly Detection methods in working with Data"

@@ -1,8 +1,8 @@
 ---
-title: Deploy Site
+title: Welcome to HTML Language!!
 menu:
   sidebar:
-    name: Deploy Site
+    name: Introduction to HTML
     identifier: getting-started
     weight: 300
 ---
