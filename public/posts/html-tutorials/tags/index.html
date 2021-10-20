@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Introduction to HTML Tags</title>
+    
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="https://chel-code.web.app/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://chel-code.web.app/css/layouts/main.css"/>
+<link rel="stylesheet" href="https://chel-code.web.app/css/style.css"/>
+<link rel="stylesheet" href="https://chel-code.web.app/css/navigators/navbar.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="https://chel-code.web.app/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" />
+
+
+<link rel="stylesheet" href="https://chel-code.web.app/css/style.css"/>
+
+    
+<meta name="description" content="Simply by writng html tags in the correct format, you can display almost anything you want over a webpage. The format to write tags is painfully simple, and now you are gonna learn more about this and how to familarise yourself in writing tags to solidify your practice with them." />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="https://chel-code.web.app/css/layouts/single.css"/>
+<link rel="stylesheet" href="https://chel-code.web.app/css/navigators/sidebar.css">
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="https://chel-code.web.app/">
+      <img src="https://chel-code.web.app/images/chel_hu3fd3bfce428cab18629ef1bbe0bb8127_25247_150x0_resize_box_3.png">Chel Codes</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  <img src="https://chel-code.web.app/images/chel_hu3fd3bfce428cab18629ef1bbe0bb8127_25247_150x0_resize_box_3.png" class="d-none" id="main-logo">
+  <img src="https://chel-code.web.app/images/chel_hu3fd3bfce428cab18629ef1bbe0bb8127_25247_42x0_resize_box_3.png" class="d-none" id="inverted-logo">
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <input type="text" value="" placeholder="Search" data-search="" id="search-box" />
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="https://chel-code.web.app/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="">HTML-Tutorials</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="https://chel-code.web.app/posts/html-tutorials/intro/">Gentle Introduction to HTML - Learning Simplified for Beginners</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="https://chel-code.web.app/posts/html-tutorials/second/">Important points about HTML Language - 50 Helpful List Collection</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="https://chel-code.web.app/posts/html-tutorials/tags/">HTML Tags - Introduction to Tags</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://chel-code.web.app/posts/html-tutorials/tags/hero.png);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='https://chel-code.web.app/images/chel.png'/>
+          <h5 class="author-name">Chelsea Koby</h5>
+          
+        </div>
+
+        <div class="title">
+          <h1>Introduction to HTML Tags</h1>
+        </div>
+
+        <div class="post-content" id="post-content">
+          <h3 id="what-are-html-tags">What are HTML Tags</h3>
+<p>HTML are the building blocks of the web. It is the most basic way to write content that can be loaded by web browsers and served over the internet. For this to happen, HTML has a simple syntax of building the structure of webpages and this is called <strong>Tags</strong>.</p>
+<p>Simply by writng tags in the correct format, you can display almost anything you want over a webpage. The format to write tags is painfully simple, at least it was for me 😌, and now you are gonna learn more about this and how to familarise yourself in writing tags to solidify your practice with them.</p>
+<h3 id="details-about-html-tags">Details about HTML Tags</h3>
+<p>There are rougly 30 - 50 HTMl tags, and while you don&rsquo;t need to know or <strong>use</strong> all of them, it is immensely helpful to know what they are and can doo at the very leaset. Another approach is to have a reference list of notes which you can consult on a regular basis. A website also works. The whole idea about HTML Tags is this : You only need about 20% to do 85% of the work. The reason is that HTML is a very flexible language, you can make things work without following the normal <strong>standard</strong>. As you become more advanced, you would be more naturally inclined to follow standards to obtain the most useful and clean codes. Now onto Tags themself;</p>
+<h3 id="common-html-tags">Common HTML Tags</h3>
+<p>In this section, you are going to learn some common html tags, how they are wriiten, how they are used, and finally, steps on how to start practising.</p>
+<h4 id="body-tag--">Body Tag -</h4>
+<ul>
+<li>Denotatation: 	<mark><code>&lt;body&gt;&lt;/body&gt;</code></mark></li>
+<li>Location: Placed Inside Html tag <code>&lt;html&gt;&lt;/html&gt;</code></li>
+<li>Usage: Let&rsquo;s you Display content on the web page and encloses other tags like paragraph tag.</li>
+<li>E.g: <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">		<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+		&lt;<span style="color:#f92672">html</span>&gt;
+		&lt;<span style="color:#f92672">head</span>&gt;
+		  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+		  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+		&lt;/<span style="color:#f92672">head</span>&gt;
+		&lt;<span style="color:#f92672">body</span>&gt;
+			An Empty Body Tag will display Nothing
+			&lt;<span style="color:#f92672">p</span>&gt;I would show because I&#39;m inside body 🙄&lt;/<span style="color:#f92672">p</span>&gt;
+		&lt;/<span style="color:#f92672">body</span>&gt;
+		&lt;/<span style="color:#f92672">html</span>&gt;
+		</code></pre></div></li>
+</ul>
+<h4 id="paragraph-tag--">Paragraph Tag -</h4>
+<ul>
+<li>Denotatation: 	<mark><code>&lt;p&gt;&lt;/p&gt;</code></mark></li>
+<li>Location: Placed Inside Body tag <body></body></li>
+<li>Usage: Let&rsquo;s you create a new paragraph</li>
+<li>E.g: <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">		<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+		&lt;<span style="color:#f92672">html</span>&gt;
+		&lt;<span style="color:#f92672">head</span>&gt;
+		  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+		  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+		&lt;/<span style="color:#f92672">head</span>&gt;
+		&lt;<span style="color:#f92672">body</span>&gt;
+			&lt;<span style="color:#f92672">p</span>&gt;Paragraph Tag for Creating new paragraphs!&lt;/<span style="color:#f92672">p</span>&gt;
+		&lt;/<span style="color:#f92672">body</span>&gt;
+		&lt;/<span style="color:#f92672">html</span>&gt;
+		</code></pre></div></li>
+</ul>
+<h4 id="heading-tags--">Heading Tag(s) -</h4>
+<ul>
+<li>Denotatation: 	<mark><code>&lt;h1&gt;&lt;/h1&gt;</code>,<code>&lt;h2&gt;&lt;/h2&gt;</code>,<code>&lt;h3&gt;&lt;/h3&gt;</code>,<code>&lt;h4&gt;&lt;/h4&gt;</code>,<code>&lt;h5&gt;&lt;/h5&gt;</code>,<code>&lt;h6&gt;&lt;/h6&gt;</code>, </mark></li>
+<li>Location: Placed Inside Body tag <body></body></li>
+<li>Usage: Let&rsquo;s you create a Heading (Large Bold Text than paragraph). there are <strong>six</strong> Heading tags ranging from the largest to smallest. <code>&lt;h1&gt;</code> being largest &amp; <code>&lt;h6&gt;</code> being smallest.</li>
+<li>E.g: <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">		<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+		&lt;<span style="color:#f92672">html</span>&gt;
+		&lt;<span style="color:#f92672">head</span>&gt;
+		  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+		  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+		&lt;/<span style="color:#f92672">head</span>&gt;
+		&lt;<span style="color:#f92672">body</span>&gt;
+			&lt;<span style="color:#f92672">h1</span>&gt;I am soo Huge&lt;/<span style="color:#f92672">h1</span>&gt;
+			&lt;<span style="color:#f92672">h2</span>&gt;I am considerably big&lt;/<span style="color:#f92672">h2</span>&gt;
+			&lt;<span style="color:#f92672">h3</span>&gt;I am also fairly big&lt;/<span style="color:#f92672">h3</span>&gt;
+			&lt;<span style="color:#f92672">h4</span>&gt;I am somewhat medium&lt;/<span style="color:#f92672">h4</span>&gt;
+			&lt;<span style="color:#f92672">h5</span>&gt;I am on the road to small&lt;/<span style="color:#f92672">h5</span>&gt;
+			&lt;<span style="color:#f92672">h6</span>&gt;I am really tiny&lt;/<span style="color:#f92672">h6</span>&gt;
+		&lt;/<span style="color:#f92672">body</span>&gt;
+		&lt;/<span style="color:#f92672">html</span>&gt;
+		</code></pre></div></li>
+</ul>
+<h4 id="bold-tag--">Bold Tag -</h4>
+<ul>
+<li>Denotatation: 	<mark><code>&lt;b&gt;&lt;/b&gt;</code> or <code>&lt;strong&gt;&lt;/strong&gt;</code></mark></li>
+<li>Location: Placed Inside Body tag <body></body></li>
+<li>Usage: Let&rsquo;s you make a text bold to showcase importance. You can use either the <code>&lt;b&gt;</code> or <code>&lt;strong&gt;</code> tag to make text bold. The <code>&lt;strong&gt;</code> tag is the newer standard way of doing so.</li>
+<li>E.g: <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">		<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+		&lt;<span style="color:#f92672">html</span>&gt;
+		&lt;<span style="color:#f92672">head</span>&gt;
+		  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+		  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+		&lt;/<span style="color:#f92672">head</span>&gt;
+		&lt;<span style="color:#f92672">body</span>&gt;
+			&lt;<span style="color:#f92672">b</span>&gt;I make stuffs bold&lt;/<span style="color:#f92672">b</span>&gt;
+			&lt;<span style="color:#f92672">strong</span>&gt;I also make stuffs bold!. Are we buddies?&lt;/<span style="color:#f92672">strong</span>&gt;
+		&lt;/<span style="color:#f92672">body</span>&gt;
+		&lt;/<span style="color:#f92672">html</span>&gt;
+		</code></pre></div></li>
+</ul>
+<h4 id="italics-tag--">Italics Tag -</h4>
+<ul>
+<li>Denotatation: 	<mark><code>&lt;i&gt;&lt;/i&gt;</code></mark></li>
+<li>Location: Placed Inside Body tag <body></body></li>
+<li>Usage: Let&rsquo;s you mark a text in the italics font style. i.e slightly bent to the right side.</li>
+<li>E.g: <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">		<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+		&lt;<span style="color:#f92672">html</span>&gt;
+		&lt;<span style="color:#f92672">head</span>&gt;
+		  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+		  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+		&lt;/<span style="color:#f92672">head</span>&gt;
+		&lt;<span style="color:#f92672">body</span>&gt;
+			&lt;<span style="color:#f92672">i</span>&gt;I would bend you and teach you resilience 😎&lt;/<span style="color:#f92672">i</span>&gt;
+		&lt;/<span style="color:#f92672">body</span>&gt;
+		&lt;/<span style="color:#f92672">html</span>&gt;
+		</code></pre></div></li>
+</ul>
+<h4 id="underline-tag--">Underline Tag -</h4>
+<ul>
+<li>Denotatation: 	<mark><code>&lt;u&gt;&lt;/u&gt;</code></mark></li>
+<li>Location: Placed Inside Body tag <body></body></li>
+<li>Usage: Let&rsquo;s you mark a text underlined.i.e with a stroke of line underneath it.</li>
+<li>E.g: <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">		<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+		&lt;<span style="color:#f92672">html</span>&gt;
+		&lt;<span style="color:#f92672">head</span>&gt;
+		  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+		  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+		&lt;/<span style="color:#f92672">head</span>&gt;
+		&lt;<span style="color:#f92672">body</span>&gt;
+			&lt;<span style="color:#f92672">u</span>&gt;Uhhh, sure I would give you a line under? 😴&lt;/<span style="color:#f92672">u</span>&gt;
+		&lt;/<span style="color:#f92672">body</span>&gt;
+		&lt;/<span style="color:#f92672">html</span>&gt;
+		</code></pre></div></li>
+</ul>
+<h4 id="div-tag--">Div Tag -</h4>
+<ul>
+<li>Denotatation: 	<mark><code>&lt;div&gt;&lt;/div&gt;</code></mark></li>
+<li>Location: Placed Inside Body tag <body></body></li>
+<li>Usage: Let&rsquo;s you add a surrounding box around an element with a defined width and height.</li>
+<li>E.g: <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">		<span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+		&lt;<span style="color:#f92672">html</span>&gt;
+		&lt;<span style="color:#f92672">head</span>&gt;
+		  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+		  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+		&lt;/<span style="color:#f92672">head</span>&gt;
+		&lt;<span style="color:#f92672">body</span>&gt;
+			&lt;<span style="color:#f92672">div</span>&gt;I am officially the most used html tag. 😌&lt;/<span style="color:#f92672">div</span>&gt;
+		&lt;/<span style="color:#f92672">body</span>&gt;
+		&lt;/<span style="color:#f92672">html</span>&gt;
+		</code></pre></div></li>
+</ul>
+<p>And that&rsquo;s it for common tags!. Wait, but I mentioned rougly 30 if you remember. Well, that&rsquo;s because I decided to break down the tags in different sections of where they belong best. In the next few pages, you are gonna learn about <strong>Advanced HTML Tags</strong> and <strong>Self-Closing Tags</strong> and <strong>Semantic Tags</strong>. But before that, you need to practise what you just learnt, and what better way to do so than by writing codes and visualising it yourself.</p>
+<h3 id="exercise-for-this-chapter">Exercise for this Chapter</h3>
+<p>The simple exercise for you is to:</p>
+<ul>
+<li>Create an html file with the following in it: A title tag, body tag, paragraph tag, italics tag, bold tag etc (common tags). I strongly advise you write them down urself and not to copy it from online sources, that way it sticks faster.</li>
+</ul>
+<p>Now how do you go about this, very simple:</p>
+<ul>
+<li>
+<p>Download any text - editor softwares where you can write your code. If you are on a PC, i recommend any of the following:</p>
+<ol>
+<li>Sublime Text: <a href="https://www.sublimetext.com/3">Here</a></li>
+<li>Atom: <a href="https://atom.io/">Here</a></li>
+<li>VS code: <a href="https://code.visualstudio.com/download">Here</a></li>
+</ol>
+</li>
+<li>
+<p>And if you are on a mobile, you can get any of the foll:</p>
+<ol>
+<li>Spck Editor: <a href="https://play.google.com/store/apps/details?id=io.spck"></a></li>
+<li>Sublime text Mobile: <a href="https://play.google.com/store/apps/details?id=com.csgroup.texteditor">Here</a></li>
+<li>Decoder, Compiler IDE: <a href="https://play.google.com/store/apps/details?id=com.paprbit.dcoder">Here</a></li>
+</ol>
+</li>
+</ul>
+<p>After you complete your code, create an account on <a href="https://codepen.io/">Codepen</a> and upload you code there, a simple copy and paste would do. Then, you can leave a comment below to tell me about your progress, and with the link if you decide. I wish you Luck!</p>
+<p style="font-size: 40; font-family: cursive;">By Chel Koby</p>,
+<!-- <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+
+H<sub>2</sub>O
+
+X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+
+Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
+
+Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+ --><blockquote>
+</blockquote>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/Chel-Ash/chelcodes/edit/master/content/posts%5cHTML%20Tutorials%5ctags%5cindex.md">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        <div class="row next-prev-navigator">
+
+
+  
+
+  
+
+  
+    
+      
+      <div class="col-md-6 previous-article">
+        <a href="https://chel-code.web.app/posts/html-tutorials/second/" class="btn btn-outline-info">
+          <span><i class="fas fa-chevron-circle-left"></i> Prev</span>
+          <br />
+          <span>Important Points About HTML Language</span>
+        </a>
+      </div>
+      
+    
+    
+  
+
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#what-are-html-tags">What are HTML Tags</a></li>
+        <li><a href="#details-about-html-tags">Details about HTML Tags</a></li>
+        <li><a href="#common-html-tags">Common HTML Tags</a>
+          <ul>
+            <li><a href="#body-tag--">Body Tag -</a></li>
+            <li><a href="#paragraph-tag--">Paragraph Tag -</a></li>
+            <li><a href="#heading-tags--">Heading Tag(s) -</a></li>
+            <li><a href="#bold-tag--">Bold Tag -</a></li>
+            <li><a href="#italics-tag--">Italics Tag -</a></li>
+            <li><a href="#underline-tag--">Underline Tag -</a></li>
+            <li><a href="#div-tag--">Div Tag -</a></li>
+          </ul>
+        </li>
+        <li><a href="#exercise-for-this-chapter">Exercise for this Chapter</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+
+  
+
+
+
+
+  
+
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<footer class="container-fluid text-center align-content-center footer pb-2">
+  <div class="container pt-5">
+    <div class="row text-left">
+      <div class="col-md-4 col-sm-12">
+        <h5>Navigation</h5>
+        
+        <ul>
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#about">About</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#skills">Skills</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#experiences">Experiences</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#recent-posts">WebDev Tutorials</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#projects">Project</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#achievements">Certificates</a>
+              </li>
+            
+        </ul>
+        
+
+      </div>
+      
+      <div class="col-md-4 col-sm-12">
+        <h5>Contact me:</h5>
+        <ul>
+          
+          <li><span>Email: </span> <span>cheloverboard@gmail.com</span></li>
+          
+          <li><span>Phone: </span> <span>&#43;2348063917575</span></li>
+          
+        </ul>
+      </div>
+      
+      
+      <div class="col-md-4 col-sm-12">
+        
+        <p>Stay up to date with email notification</p>
+        <form>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We&#39;ll never share your email with anyone else.</small
+            >
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-md-4">
+        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
+          <img src="https://chel-code.web.app/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png">
+          Toha
+        </a>
+      </div>
+      <div class="col-md-4 text-center">© 2020 Copyright ChelCodes.</div>
+      <div class="col-md-4 text-right">
+        <a id="hugo" href="https://gohugo.io/">Powered by
+        <img
+          src="https://chel-code.web.app/images/hugo-logo.svg"
+          alt="Hugo Logo"
+          height="18"
+        />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://chel-code.web.app/js/jquery-3.4.1.min.js"></script>
+<script src="https://chel-code.web.app/js/popper.min.js"></script>
+<script src="https://chel-code.web.app/js/bootstrap.min.js"></script>
+
+<script src="https://chel-code.web.app/js/navbar.js"></script>
+<script src="https://chel-code.web.app/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="https://chel-code.web.app/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);">
+</script>
+
+
+
+  </body>
+</html>

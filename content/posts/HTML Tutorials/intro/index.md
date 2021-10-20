@@ -1,13 +1,13 @@
 ---
-title: "HTML Language and Tags"
-date: 2021-01-01T06:00:23+06:00
-description: Post to these and this
+title: "Gentle Introduction to HTML"
+<!-- date: 2021-02-01T06:00:23+06:00 -->
+description: HTML is the basic most popular markup language that is used to build webpages around the world. The process of Learning HTML is fairly easy in the beginner stages and involves understanding of HTML Tags, their uses and how they can be arranged to create meaningful page structure.
 hero: getting-started/hero.jpg
 menu:
   sidebar:
-    name: What is HTML? What are HTML tags?
-    identifier: getting-started-html
-    parent: getting-started
+    name: Gentle Introduction to HTML - Learning Simplified for Beginners
+    identifier: a
+    parent: HTML-Tutorials
     weight: 10
 author:
   name: Chelsea Koby

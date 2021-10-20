@@ -6,57 +6,37 @@
     <description>Recent content on Chel Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 06:00:23 +0600</lastBuildDate><atom:link href="https://chel-code.web.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jul 2020 01:49:53 +0600</lastBuildDate><atom:link href="https://chel-code.web.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HTML Language and Tags</title>
-      <link>https://chel-code.web.app/posts/getting-started/html-intro/</link>
-      <pubDate>Fri, 01 Jan 2021 06:00:23 +0600</pubDate>
+      <title>Gentle Introduction to HTML</title>
+      <link>https://chel-code.web.app/posts/html-tutorials/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chel-code.web.app/posts/getting-started/html-intro/</guid>
+      <guid>https://chel-code.web.app/posts/html-tutorials/intro/</guid>
       <description>What is HTML? HTML is a Language of the web which makes use of tag to build the structure and layout of a webpage. The full meaning of HTML is (Hyper Text Markup Language). Broken down, this means - a language that builds markup or structure by employing an advanced style of writing text, in this case, they are called &amp;ldquo;TAGS&amp;rdquo;.
 When was it Founded HTML language till date has had a lot of version releases each coming with upgraded features .</description>
     </item>
     
     <item>
-      <title>Shortcodes Samples</title>
-      <link>https://chel-code.web.app/for-later/beginner/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      <title>Important Points About HTML Language</title>
+      <link>https://chel-code.web.app/posts/html-tutorials/second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chel-code.web.app/for-later/beginner/</guid>
-      <description>This is a sample post intended to test the followings:
- Default hero image. Different shortcodes.  Alert The following alerts are available in this theme.
-This is sample alert with type=&amp;quot;success&amp;quot;.This is sample alert with type=&amp;quot;danger&amp;quot;.This is sample alert with type=&amp;quot;warning&amp;quot;.This is sample alert with type=&amp;quot;info&amp;quot;.This is sample alert with type=&amp;quot;dark&amp;quot;.This is sample alert with type=&amp;quot;primary&amp;quot;.This is sample alert with type=&amp;quot;secondary&amp;quot;.</description>
+      <guid>https://chel-code.web.app/posts/html-tutorials/second/</guid>
+      <description>Important Points to Note   HTML means Hyper Text Markup Language
+  HTML is the most basic Language for building web applications
+  HTML is the Sixth most Used Language around the world by Developers. According to the survey carried out be Start Overflow in 2020.
+  An HTML Documnet Consists of 2 Important Parts : Document Creation (What Users See), Tags (How they see it)</description>
     </item>
     
     <item>
-      <title>Markdown Samples</title>
-      <link>https://chel-code.web.app/for-later/markdown-sample/</link>
-      <pubDate>Sun, 07 Jun 2020 08:06:25 +0600</pubDate>
+      <title>Introduction to HTML Tags</title>
+      <link>https://chel-code.web.app/posts/html-tutorials/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chel-code.web.app/for-later/markdown-sample/</guid>
-      <description>This is a sample post intended to test the followings:
- A different post author. Table of contents. Markdown content rendering. Math rendering. Emoji rendering.   Markdown Syntax Rendering Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description>
-    </item>
-    
-    <item>
-      <title>HTML Stuffs Again</title>
-      <link>https://chel-code.web.app/posts/getting-started/second/</link>
-      <pubDate>Wed, 01 Jan 2020 06:00:23 +0600</pubDate>
-      
-      <guid>https://chel-code.web.app/posts/getting-started/second/</guid>
-      <description>What is HTML? HTML is a Language of the web which makes use of tag to build the structure and layout of a webpage. The full meaning of HTML is (Hyper Text Markup Language). Broken down, this means - a language that builds markup or structure by employing an advanced style of writing text, in this case, they are called &amp;ldquo;TAGS&amp;rdquo;.
-When was it Founded </description>
-    </item>
-    
-    <item>
-      <title>HTML Language and Tags</title>
-      <link>https://chel-code.web.app/posts/getting-started/first/</link>
-      <pubDate>Wed, 02 Jan 2019 06:00:23 +0600</pubDate>
-      
-      <guid>https://chel-code.web.app/posts/getting-started/first/</guid>
-      <description>What is HTML? HTML is a Language of the web which makes use of tag to build the structure and layout of a webpage. The full meaning of HTML is (Hyper Text Markup Language). Broken down, this means - a language that builds markup or structure by employing an advanced style of writing text, in this case, they are called &amp;ldquo;TAGS&amp;rdquo;.
-When was it Founded HTML language till date has had a lot of version releases each coming with upgraded features .</description>
+      <guid>https://chel-code.web.app/posts/html-tutorials/tags/</guid>
+      <description>What are HTML Tags HTML are the building blocks of the web. It is the most basic way to write content that can be loaded by web browsers and served over the internet. For this to happen, HTML has a simple syntax of building the structure of webpages and this is called Tags.
+Simply by writng tags in the correct format, you can display almost anything you want over a webpage.</description>
     </item>
     
   </channel>

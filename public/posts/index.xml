@@ -5,7 +5,38 @@
     <link>https://chel-code.web.app/posts/</link>
     <description>Recent content in Posts on Chel Codes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 06:00:23 +0600</lastBuildDate><atom:link href="https://chel-code.web.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://chel-code.web.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gentle Introduction to HTML</title>
+      <link>https://chel-code.web.app/posts/html-tutorials/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chel-code.web.app/posts/html-tutorials/intro/</guid>
+      <description>What is HTML? HTML is a Language of the web which makes use of tag to build the structure and layout of a webpage. The full meaning of HTML is (Hyper Text Markup Language). Broken down, this means - a language that builds markup or structure by employing an advanced style of writing text, in this case, they are called &amp;ldquo;TAGS&amp;rdquo;.
+When was it Founded HTML language till date has had a lot of version releases each coming with upgraded features .</description>
+    </item>
+    
+    <item>
+      <title>Important Points About HTML Language</title>
+      <link>https://chel-code.web.app/posts/html-tutorials/second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chel-code.web.app/posts/html-tutorials/second/</guid>
+      <description>Important Points to Note   HTML means Hyper Text Markup Language
+  HTML is the most basic Language for building web applications
+  HTML is the Sixth most Used Language around the world by Developers. According to the survey carried out be Start Overflow in 2020.
+  An HTML Documnet Consists of 2 Important Parts : Document Creation (What Users See), Tags (How they see it)</description>
+    </item>
+    
+    <item>
+      <title>Introduction to HTML Tags</title>
+      <link>https://chel-code.web.app/posts/html-tutorials/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chel-code.web.app/posts/html-tutorials/tags/</guid>
+      <description>What are HTML Tags HTML are the building blocks of the web. It is the most basic way to write content that can be loaded by web browsers and served over the internet. For this to happen, HTML has a simple syntax of building the structure of webpages and this is called Tags.
+Simply by writng tags in the correct format, you can display almost anything you want over a webpage.</description>
+    </item>
+    
   </channel>
 </rss>
